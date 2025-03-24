@@ -1,23 +1,53 @@
-/* Typografi */
-@import url("https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Michroma&display=swap");
 
-/* Variables */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+h1,
+h2 {
+  font-family: "Michroma", sans-serif;
 }
 
-:root {
+h2 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
 
-/* General styling */
-/* Header */
-/* Navbar */
-/* Footer */
+#apod-container {
+  text-align: center;
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 1000px;
+  background-color: #f4f4f4;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
 
+/* Styling for titel */
+#apod-title {
+  font-size: 4rem;
+  color: #4b1592;
+  margin-bottom: 20px;
+}
 
+/* Styling for beskrivelsen */
+#apod-description {
+  font-size: 1.5rem;
+  color: #4b1592;
+  line-height: 1.5;
+  margin-top: 40px;
+  max-width: 750px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
-/* ================================
-  MEDIA QUERIES
-  ================================ */
+#apod-media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+#apod-media img {
+  border-radius: 15px;
+  box-shadow: 3px 6px 9px rgb(77, 54, 99);
+}
+
